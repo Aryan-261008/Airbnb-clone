@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    height: 200px;
+      background-color: rgb(243, 245, 247);
+   
+}
+
+.nav-bar1{
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-size: cover;
+height: 80px;
+width: 140px;
+
+}
+
+.centre i{
+    margin-left: 15px;
+    font-size: 1.5rem;
+    align-items: center;  
+}
+
+.centre{
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+padding-left: 200px;
+}
+
+.last{
+font-size: 1rem;
+margin-right: 20px;
+}
+
+.last i{
+    margin-left: 5px;
+}
+.centre i:hover{
+    font-size: 1.7rem;
+    border-bottom: 2px solid black;
+}
+
+.centre a{
+    text-decoration: none;
+    color: black;
+}
+
+.centre a:hover{
+    border-bottom: 2px solid black;
+}
+.last a{
+    text-decoration: none;
+    color: black;
+}
+
+.searchbar{
+    background-color: white;
+    border-radius: 50px;
+    height: 70px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    font-size: 0.85rem;
+  padding-left: 50px;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+}
+
+.searchbar input{
+    border:none;
+    background-color: transparent;
+    font-size: 1rem;
+    color: gray;
+
+}
+
+.searchbar input:hover{
+    border: none;
+}
+
+.search-1{
+    margin-left: 200px;
+}
+
+.hero{
+    height: 30px;
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.hero a{
+    background-color: rgb(234, 228, 228);
+    border-radius: 50%;
+    color: #222222;
+font-size: 0.85rem;
+align-items: center;
+
+}
+
+
+
+.room-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 230px;
+    width: 13%;
+    margin-top: 20px;
+}
+
+.box-img{
+    height: 180px;
+    width: 180px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.box-text{
+    font-weight: 500;
+    font-size: 0.90rem;
+}
+
+.price{
+    color: rgb(101, 98, 98);
+    font-size: 0.75rem;
+}
+
+.footer{
+    height: 800px;
+    background-color: #f7f7f7;
+   padding: 32px 45px;
+}
+
+.future{
+    font-size: 1.5rem;
+font-weight: 500;
+}
+
+.foot-popular{
+display: flex;
+padding-top: 10px;
+
+}
+
+.footer-future{
+   margin-right: 25px;
+   font-weight: 500;
+   color: gray;
+   
+}
+
+
+
+.footer-future:hover{
+    border-bottom: 2px solid black;
+}
+
+.foot{
+    margin-top: 20px;
+   width: 13%;
+}
+
+hr{
+    color: grey;
+    font-size: 2px;
+    margin-top: 6px; 
+}
+.rental{
+    color: grey;
+    font-size: 0.90rem;
+}
+
+.room-section3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+.foot-panel3{
+    background-color: #f7f7f7;
+    height: 380px;
+}
+
+.foot-panel2{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
+
+}
+
+.foot-panel2 a{
+    color: #222222;
+    text-decoration: none;
+    font-size: 1rem;}
+
+    .foot-panel2 p{
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+li{
+    margin-top: 10px;
+}
+
+.foot-panel2 a:hover{
+    border-bottom: 2px solid black;
+}
+
+
+.foot-copyright{
+    padding-bottom: 24px;
+    padding-top: 24px;
+    display: flex;
+    
+   
+
+}
+
+.copyright{
+    height: 30px;
+display: flex;
+justify-content: space-evenly;
+}
+
+.contact a{
+    color: #222222;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.contact a:hover{
+    background-color: #e7e4e4;
+    border-radius: 50%;
+}
+ 
+.contact{
+    
+    margin-left: 650px;
+}
